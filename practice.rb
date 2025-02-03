@@ -27,3 +27,21 @@ blockchain = [
 # Anthony's KelloggCoin balance is 2650
 
 # 👇👇👇 Your code HERE 👇👇👇
+
+# Users_list = []'Ben', 'Brian', 'Evan', 'Anthony']
+
+wallets = []
+
+for i in 0...blockchain.length
+  from_user = blockchain[i] ["from_user"]
+  to_user = blockchain[i]["to_user"]
+end
+
+
+puts "Wallet Balances:"
+for i in 0...wallets.length
+  puts "#{wallets[i]['user']}: #{wallets[i]['balance']} Kelloggcoins"
+end
+
+
+
